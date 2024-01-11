@@ -53,8 +53,8 @@
         const searchbtn = document.querySelector(".search button");
         
         var weatherIcon = document.querySelector(".weatherIcon");
-        searchbtn.addEventListener("click",()=>{
-            
+        searchbtn.addEventListener("click",(event)=>{
+            event.preventDefault();
             checkWeather(searchBox.value);
             //console.log("city");
              

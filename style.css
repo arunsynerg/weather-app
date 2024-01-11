@@ -10,6 +10,11 @@ body{
     display: flex;
     margin-top:20px;
     justify-content:center;
+    background-image: url(./images/weather-background.jpg) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 85%); */
 }
 .card{
     width:50%;
